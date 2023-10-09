@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 class Aviao implements Runnable {
+  private String teste;
   private static final Logger LOG = LoggerFactory.getLogger("Aviao");
   private Aeroporto aeroporto;
   private String idAviao;
